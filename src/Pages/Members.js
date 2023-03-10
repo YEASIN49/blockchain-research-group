@@ -9,21 +9,21 @@ class Members extends React.PureComponent {
             {
               title: 'Member 1 Member 1 Member Member 1 Member 1 Member ',
               designation: 'Professor',
-              link: 'https://google.com',
+              link: 'user/1',
               keyword: 'Blockchain, Ethereum',
               description: 'This is a dummy description This is a dummy description This is a dummy description This is a dummy description'
             },
             {
               title: 'Member 2',
               designation: 'Asst. Professor',
-              link: 'https://google.com',
+              link: 'user/1',
               keyword: 'Blockchain, Ethereum',
               description: 'This is a dummy description'
             },
             {
               title: 'Member 3',
               designation: 'Associate Professor',
-              link: 'https://google.com',
+              link: 'user/1',
               keyword: 'Blockchain, Fabric',
               description: 'This is a dummy description'
             },

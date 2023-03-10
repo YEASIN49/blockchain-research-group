@@ -41,11 +41,16 @@ const UserData = () => {
 
     return (
         <div>
-            <Card hoverable>
+            <Card hoverable title={ 'User Information' }>
                 <Typography.Paragraph>Name: { 'MD. Yeasin Ali' }</Typography.Paragraph>
                 <Typography.Paragraph>Designation: { 'Graduate Research Assistant' }</Typography.Paragraph>
                 <Typography.Paragraph>Department: { 'CSE' }</Typography.Paragraph>
                 <Typography.Paragraph>Email: { 'yeasin.ali@bracu.ac.bd' }</Typography.Paragraph>
+                <Typography.Paragraph>Research Interest/Area: 
+                  <Tag color={ 'success' }>Keyword 1</Tag> 
+                  <Tag color={ 'success' }>Keyword 2</Tag>
+                  <Tag color={ 'success' }>Keyword 3</Tag>
+                </Typography.Paragraph>
             </Card>
 
             <Divider />

@@ -18,7 +18,8 @@ class App extends React.PureComponent {
 
     return (
       <div >
-        <BrowserRouter>
+        {/* Please remove this basename in production deploy */}
+        <BrowserRouter basename={ 'blockchain-research-group' }>
           <Routes>
             <Route
               exact={true}

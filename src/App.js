@@ -1,6 +1,6 @@
 import { Spin } from 'antd';
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate, HashRouter } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import UserBanner from './Components/Common/UserBanner';
 import ProtectedRoute from './Components/Layout/ProtectedRoute';
 
@@ -18,8 +18,7 @@ class App extends React.PureComponent {
 
     return (
       <div >
-        {/* Please remove this basename in production deploy */}
-        <HashRouter>
+        <BrowserRouter>
           <Routes>
             <Route
               exact={true}
@@ -94,7 +93,7 @@ class App extends React.PureComponent {
               }
             />
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </div>
     )
   }

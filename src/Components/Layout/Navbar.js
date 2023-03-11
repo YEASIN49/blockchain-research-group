@@ -1,27 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 import { Link, useLocation } from 'react-router-dom'
 // import 'antd/dist/antd.css';
 // import '../../App.css';
 
 // Import library Components
-import { Avatar, Popover, Button, Space, Menu } from 'antd'
+import { Menu } from 'antd'
 import { 
-    FileUnknownOutlined, 
     LayoutOutlined, 
-    FileTextOutlined, 
-    EnvironmentOutlined, 
-    BarChartOutlined, 
-    ScheduleOutlined, 
-    NodeIndexOutlined, 
-    FileAddOutlined, 
-    SafetyCertificateOutlined,
-    LineChartOutlined,
-    UserOutlined,
-    MailOutlined,
-    PoweroffOutlined,
-    QuestionOutlined
  } from '@ant-design/icons'
 
 //actions
@@ -30,7 +17,7 @@ import {
 
 const Navbar = ({ user, dispatch, allowedPermission }) => {
     const [ selectedMenu, setSelectedMenu ] = useState(null)
-    const [ isLogoutLoading, setIsLogoutLoading ] = useState(false)
+    // const [ isLogoutLoading, setIsLogoutLoading ] = useState(false)
     const location = useLocation()
     const prevLocation = usePrev(location)
 
@@ -107,16 +94,16 @@ const Navbar = ({ user, dispatch, allowedPermission }) => {
    
 
     // Handle Logout
-    const handleLogout = () => {
-     setIsLogoutLoading(true)
+//     const handleLogout = () => {
+//      setIsLogoutLoading(true)
 
-     setTimeout(() => {
-         setIsLogoutLoading(false)
+//      setTimeout(() => {
+//          setIsLogoutLoading(false)
          
-         // Logout
-        //  dispatch( logout() )
-     }, 1000)        
- }
+//          // Logout
+//         //  dispatch( logout() )
+//      }, 1000)        
+//  }
 
  
 
@@ -151,30 +138,30 @@ const usePrev = (value) => {
 }
 
 // JSS Styles
-const userIconStyle = {
-    backgroundColor: '#292277',
-    cursor: 'pointer'
-}
+// const userIconStyle = {
+//     backgroundColor: '#292277',
+//     cursor: 'pointer'
+// }
 
-const adminOptionStyle = {
-    textAlign: 'center',
-    padding: '10px',
-    margin: '15px auto'
-}
+// const adminOptionStyle = {
+//     textAlign: 'center',
+//     padding: '10px',
+//     margin: '15px auto'
+// }
 
-const logoStyle = {
-    fontFamily: 'Oleo Script Swash Caps, cursive',
-    textAlign: 'center', 
-    padding: '10px', 
-    borderBottom: '1px solid gray',
-    fontWeight: 'bold', 
-    fontSize: '32px',
-}
+// const logoStyle = {
+//     fontFamily: 'Oleo Script Swash Caps, cursive',
+//     textAlign: 'center', 
+//     padding: '10px', 
+//     borderBottom: '1px solid gray',
+//     fontWeight: 'bold', 
+//     fontSize: '32px',
+// }
 
-const logoutButtonStyles = {
-    display: 'flex', 
-    justifyContent: 'flex-end'
-}
+// const logoutButtonStyles = {
+//     display: 'flex', 
+//     justifyContent: 'flex-end'
+// }
 
 // Prop Types
 Navbar.propTypes = {

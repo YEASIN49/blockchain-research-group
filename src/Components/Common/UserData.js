@@ -1,16 +1,16 @@
 import React from 'react'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 
 // Import Components
-import { Card, Divider, Image, Space, Tag, Typography } from 'antd'
+import { Card, Divider, Tag, Typography } from 'antd'
 // import UserProfileForm from '../Components/Layout/UserProfileForm'
 // import UserBanner from '../Components/Common/UserBanner'
-import { useParams } from 'react-router-dom'
+// import { useParams } from 'react-router-dom'
 import ListContainer from './ListContainer'
 
 
 const UserData = () => {   
-    const { id } = useParams()
+    // const { id } = useParams()
 
     const publicationList = [
         {

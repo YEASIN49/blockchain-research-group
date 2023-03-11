@@ -1,7 +1,6 @@
 import { Spin } from 'antd';
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import UserBanner from './Components/Common/UserBanner';
 import ProtectedRoute from './Components/Layout/ProtectedRoute';
 
 import { Home, Members, Login } from "./Pages";

@@ -1,5 +1,5 @@
 import { GithubFilled, LinkedinFilled } from "@ant-design/icons"
-import { Divider, Image, Space, Tag, Typography } from "antd"
+import { Image, Space, Tag, Typography } from "antd"
 
 import userPic from '../../Assets/user-profile.png'
 import researchgate from '../../Assets/researchgate.png'
@@ -27,11 +27,13 @@ const UserBanner = () => {
                     preview={ 'false' }
                     src={ researchgate }
                     width={ 30 }
+                    alt={ 'researchgate-logo' }
                 />
                 <img 
                     preview={ 'false' }
                     src={ googleSCholar }
                     width={ 30 }
+                    alt={ 'google scholar logo' }
                 />
                 <GithubFilled  style={{ fontSize: 25 }}/>
                 <LinkedinFilled style={{ fontSize: 25 }}/>

@@ -1,5 +1,5 @@
 import { Card, Col, Row, Typography } from "antd";
-import { Button, ConfigProvider } from 'antd';
+// import { Button, ConfigProvider } from 'antd';
 import React from "react";
 import heroImg from "../Assets/hero.png"
 import RecentPublication from "../Components/Common/RecentPublication";
@@ -18,7 +18,7 @@ class Home extends React.PureComponent {
                             <div style={ heroTextContainer }>
                                 
                                 <Typography.Title>A Research Group for Blockchain and Cyber Security Enthusiasts</Typography.Title>
-                                <img src={ heroImg } style={ imageStyle } height={ 250 } width={ 250 }/>
+                                <img src={ heroImg } style={ imageStyle } height={ 250 } width={ 250 } alt={ 'hero' }/>
                             </div>
                         </Col>
                         <Col span={ 12 } xs={ 24 } md={ 24 } lg={ 10 } style={ formColStyle }>

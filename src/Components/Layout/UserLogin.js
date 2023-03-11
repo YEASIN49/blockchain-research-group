@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Checkbox, Form, Input, Typography } from 'antd';
+import { Button, Form, Input, Typography } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
-import { Navigate } from 'react-router-dom';
+// import { Navigate } from 'react-router-dom';
 
 const onFinish = (values) => {
   console.log('Success:', values);

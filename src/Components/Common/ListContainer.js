@@ -1,6 +1,6 @@
+import React from 'react';
 import { BookOutlined } from '@ant-design/icons';
-import { Avatar, Card, Col, List, Row, Space, Tag, Typography } from 'antd';
-import React, { useState } from 'react';
+import { Avatar, Card, List, Space, Tag, Typography } from 'antd';
 import userPic from '../../Assets/user-profile.png'
 
 
@@ -31,7 +31,7 @@ const ListContainer = ({ sectionTitle, data, listType }) => {
                 <List.Item.Meta
                   style={ listType === 'profile' ? { display: 'block'} : {}}
                   avatar={ listType === 'profile' ? <Avatar src={ userPic } size={ 100 } /> : <div ><BookOutlined style={{ fontSize: 30 }}/></div>}
-                  title={<a  style={ listType === 'profile' ? { display: 'flex' } : {}} href={ item?.link ?? '' } target="_blank">{ item?.title ?? '-' }</a>}
+                  title={<a  style={ listType === 'profile' ? { display: 'flex' } : {}} href={ item?.link ?? '' } rel="noreferrer" target="_blank">{ item?.title ?? '-' }</a>}
                   description={ 
                     <Space direction='vertical' size={[0, 5]}> 
                       { listType === 'profile' && <Typography.Text type='secondary'>{ item?.designation ?? '-' }</Typography.Text> }

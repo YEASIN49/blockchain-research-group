@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { Navigate } from 'react-router-dom'
 
 // Import Components
@@ -12,7 +12,7 @@ import { Layout } from 'antd'
 // import '../App.css';
 
 // Import Actions and reducers
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 import { MenuFoldOutlined, MenuUnfoldOutlined } from '@ant-design/icons'
 import Navbar from './Navbar'
 

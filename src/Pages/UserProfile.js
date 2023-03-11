@@ -1,8 +1,8 @@
 import React from 'react'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 
 // Import Components
-import { Card, Image, Space, Tag, Typography } from 'antd'
+import { Card } from 'antd'
 import UserProfileForm from '../Components/Layout/UserProfileForm'
 import UserBanner from '../Components/Common/UserBanner'
 

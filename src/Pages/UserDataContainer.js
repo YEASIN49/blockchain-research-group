@@ -1,15 +1,13 @@
 import React from 'react'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 
 // Import Components
-import { Card, Divider, Image, Space, Tag, Typography } from 'antd'
-import UserProfileForm from '../Components/Layout/UserProfileForm'
+import { Card, Divider } from 'antd'
 import UserBanner from '../Components/Common/UserBanner'
-import { useParams } from 'react-router-dom'
 import UserData from '../Components/Common/UserData'
 
 const UserDataContainer = () => {   
-    const { id } = useParams()
+    // const { id } = useParams()
 
     return (
         <Card hoverable>

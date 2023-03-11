@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from 'react'
-import PropTypes from 'prop-types'
-import { useDispatch, useSelector } from 'react-redux'
+import React from 'react'
+// import PropTypes from 'prop-types'
+// import { useDispatch, useSelector } from 'react-redux'
 
 // Import Components
-import { Form, Select, Radio, Button, Typography, Space, Divider, Input, Tag, DatePicker, Card } from 'antd'
-import { CloseCircleOutlined, CloseOutlined, CloseSquareOutlined, PlusOutlined } from '@ant-design/icons';
+import { Form, Select, Button, Space, Divider, Input, DatePicker, Card } from 'antd'
+import { CloseSquareOutlined, PlusOutlined } from '@ant-design/icons';
 import ListContainer from '../Common/ListContainer';
 
 
-const { Option } = Select
 
 // form label and field ratio
 const formItemLayout = {

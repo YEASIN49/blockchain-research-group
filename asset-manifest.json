@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/blockchain-research-group/static/css/main.884a644f.css",
+    "main.js": "/blockchain-research-group/static/js/main.e28a9da9.js",
+    "static/media/hero.png": "/blockchain-research-group/static/media/hero.a9f82c50223c162784f8.png",
+    "static/media/user-profile.png": "/blockchain-research-group/static/media/user-profile.29281f374994be554581.png",
+    "static/media/google-scholar.jpg": "/blockchain-research-group/static/media/google-scholar.3f78c726e02e30879629.jpg",
+    "index.html": "/blockchain-research-group/index.html",
+    "main.884a644f.css.map": "/blockchain-research-group/static/css/main.884a644f.css.map",
+    "main.e28a9da9.js.map": "/blockchain-research-group/static/js/main.e28a9da9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.884a644f.css",
+    "static/js/main.e28a9da9.js"
+  ]
+}
